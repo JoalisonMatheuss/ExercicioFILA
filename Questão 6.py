@@ -3,7 +3,7 @@ class queue:
         self.itens = []
 
     def enqueue(self):
-      elemento = int(input("Adicionar Avi„o: "))
+      elemento = int(input("Adicionar Avi√£o: "))
       self.itens.append(elemento)
 
     def dequeue(self):
@@ -12,7 +12,7 @@ class queue:
 
     def lenght(self):
       #Letra A 
-      return print("N˙mero de aviıes aguardando na fila de decolagem: %d \n"%(len(self.itens)))
+      return print("N√∫mero de avi√µes aguardando na fila de decolagem: %d \n"%(len(self.itens)))
     
     
     def isEmpty(self):
@@ -20,23 +20,23 @@ class queue:
 
 fila = queue()
 fila.enqueue()
-print("========================= LETRA E =========================")
-print(fila.itens," --> o 1- Blackbird È o avi„o mais r·pido do mundo")
 #Letra E
+print("========================= LETRA E =========================")
+print(fila.itens," --> o 1- Blackbird √© o avi√£o mais r√°pido do mundo")
 fila.enqueue()
 fila.enqueue()
 print("========================= LETRA A =========================")
 
 fila.lenght()
-#Letra E
+#Letra  B
 print("========================= LETRA B =========================")
 print("Decolagem autorizada! \n")
 print("========================= LETRA C =========================")
 fila.dequeue()
 
-#Letra c 
-print("Aviıes na fila de espera: \n",fila.itens,"\n" )
+#Letra C
+print("Avi√µes na fila de espera: \n",fila.itens,"\n" )
 fila.enqueue()
 #Letra D
 print("========================= LETRA D =========================")
-print("Aviıes na fila de espera:",fila.itens)
+print("Avi√µes na fila de espera:",fila.itens)
