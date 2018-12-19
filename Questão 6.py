@@ -37,6 +37,6 @@ fila.dequeue()
 #Letra C
 print("Aviões na fila de espera: \n",fila.itens,"\n" )
 fila.enqueue()
-#Letra D
+#Letra D 
 print("========================= LETRA D =========================")
 print("Aviões na fila de espera:",fila.itens)
