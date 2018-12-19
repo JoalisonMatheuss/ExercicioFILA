@@ -7,7 +7,7 @@ class queue:
 
     def dequeue(self):
         if (not(self.isEmpty())):
-            self.itens.dequeue(0)
+            self.itens.pop(0)
 
     def lenght(self):
         return len(self.itens)
